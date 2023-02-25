@@ -1,8 +1,8 @@
 var expect = require('expect.js'),
   _ = require('lodash'),
-  EventDispatcher = require('../../lib/eventDispatcher'),
-  ReplayHandler = require('../../lib/replayHandler'),
-  revGuardStore = require('../../lib/revisionGuardStore');
+  EventDispatcher = require('../.denormalizer/lib/eventDispatcher'),
+  ReplayHandler = require('../.denormalizer/lib/replayHandler'),
+  revGuardStore = require('../.denormalizer/lib/revisionGuardStore');
 
 describe('replayHandler', function () {
 

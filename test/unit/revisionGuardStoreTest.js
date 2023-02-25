@@ -1,8 +1,8 @@
 var expect = require('expect.js'),
   async = require('async'),
-  revisionGuardStore = require('../../lib/revisionGuardStore'),
-  Base = require('../../lib/revisionGuardStore/base'),
-  InMemory = require('../../lib/revisionGuardStore/databases/inmemory');
+  revisionGuardStore = require('../.denormalizer/lib/revisionGuardStore'),
+  Base = require('../.denormalizer/lib/revisionGuardStore/base'),
+  InMemory = require('../.denormalizer/lib/revisionGuardStore/databases/inmemory');
 
 describe('revisionGuardStore', function() {
 

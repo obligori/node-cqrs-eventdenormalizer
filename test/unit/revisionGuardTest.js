@@ -1,7 +1,7 @@
 var expect = require('expect.js'),
   _ = require('lodash'),
-  RevisionGuard = require('../../lib/revisionGuard'),
-  revGuardStore = require('../../lib/revisionGuardStore');
+  RevisionGuard = require('../.denormalizer/lib/revisionGuard'),
+  revGuardStore = require('../.denormalizer/lib/revisionGuardStore');
 
 describe('revisionGuard', function () {
 

@@ -2,8 +2,8 @@ var expect = require('expect.js'),
   _ = require('lodash'),
   async = require('async'),
   viewmodel = require('viewmodel'),
-  DefinitionBase = require('../../../lib/definitionBase'),
-  Collection = require('../../../lib/definitions/collection'),
+  DefinitionBase = require('../../.denormalizer/lib/definitionBase'),
+  Collection = require('../../.denormalizer/lib/definitions/collection'),
   api = require('../../../');
 
 describe('collection definition', function () {

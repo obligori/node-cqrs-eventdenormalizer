@@ -1,7 +1,7 @@
 var expect = require('expect.js'),
   _ = require('lodash'),
-  DefinitionBase = require('../../../lib/definitionBase'),
-  ViewBuilder = require('../../../lib/definitions/viewBuilder'),
+  DefinitionBase = require('../../.denormalizer/lib/definitionBase'),
+  ViewBuilder = require('../../.denormalizer/lib/definitions/viewBuilder'),
   api = require('../../../');
 
 describe('viewBuilder definition', function () {

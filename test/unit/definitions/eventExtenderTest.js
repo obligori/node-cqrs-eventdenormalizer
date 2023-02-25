@@ -1,7 +1,7 @@
 var expect = require('expect.js'),
   _ = require('lodash'),
-  DefinitionBase = require('../../../lib/definitionBase'),
-  EventExtender = require('../../../lib/definitions/eventExtender'),
+  DefinitionBase = require('../../.denormalizer/lib/definitionBase'),
+  EventExtender = require('../../.denormalizer/lib/definitions/eventExtender'),
   api = require('../../../');
 
 describe('eventExtender definition', function () {

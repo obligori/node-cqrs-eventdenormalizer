@@ -1,5 +1,5 @@
 var expect = require('expect.js'),
-  EventDispatcher = require('../../lib/eventDispatcher');
+  EventDispatcher = require('../.denormalizer/lib/eventDispatcher');
 
 describe('eventDispatcher', function () {
 

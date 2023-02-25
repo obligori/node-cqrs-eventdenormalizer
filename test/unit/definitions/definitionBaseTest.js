@@ -1,6 +1,6 @@
 var expect = require('expect.js'),
   _ = require('lodash'),
-  DefinitionBase = require('../../../lib/definitionBase');
+  DefinitionBase = require('../../.denormalizer/lib/definitionBase');
 
 describe('base definition', function () {
 

@@ -1,5 +1,5 @@
 var expect = require('expect.js'),
-  OrderQueue = require('../../lib/orderQueue');
+  OrderQueue = require('../.denormalizer/lib/orderQueue');
 
 describe('orderQueue', function () {
 
