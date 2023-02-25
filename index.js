@@ -20,11 +20,7 @@ function denormalizer (options) {
  * @return {Object}       The new object.
  */
 function construct (klass, args) {
-  function T () {
-    klass.apply(this, arguments[0]);
-  }
-  T.prototype = klass.prototype;
-  return new T(args);
+  return new klass(...args);
 }
 
 const files = fs.readdirSync(path.join(__dirname, 'lib/definitions'));
