@@ -2,7 +2,10 @@
   "compilerOptions": {
       "module": "commonjs",
       "target": "es6",
-      "baseUrl": "./"
+      "baseUrl": "./",
+      "paths": {
+          "denormalizer/*": ["./*"]
+      }
   },
   "exclude": ["node_modules", "**/node_modules/*"]
 }

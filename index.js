@@ -27,13 +27,13 @@ function construct (klass, args) {
   return new T(args);
 }
 
-const files = fs.readdirSync(path.join(__dirname, 'denormalizer/lib/definitions'));
+const files = fs.readdirSync(path.join(__dirname, 'lib/definitions'));
 
 files.forEach(function (file) {
   const name = path.basename(file, '.js');
   const nameCap = name.charAt(0).toUpperCase() + name.slice(1);
   denormalizer['define' + nameCap] = function () {
-    return construct(require('denormalizer/lib/definitions/' + name), _.toArray(arguments));
+    return construct(require('./lib/definitions/' + name), _.toArray(arguments));
   };
 });
 
