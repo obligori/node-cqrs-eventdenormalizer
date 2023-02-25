@@ -9,10 +9,8 @@ globals:
   describeSaga: false
   describeEvent: false
   describeCommand: false
-  before: false
   it: false
   xit: false
-  window : false
   beforeEach : false
   afterEach : false
   after : false
